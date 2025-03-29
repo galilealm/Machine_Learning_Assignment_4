@@ -1,0 +1,21 @@
+# 
+# See here for more information about the cerebral cortex of the brain: https://en.wikipedia.org/wiki/Cerebral_cortex
+#
+# Glucose metabolism measures from the below 14 cortical regions constitute the features of this dataset
+# 
+# ctx: Cortex, lh: Left Hemisphere, rh: Right Hemisphere
+#
+ctx-lh-inferiorparietal
+ctx-lh-inferiortemporal
+ctx-lh-isthmuscingulate
+ctx-lh-middletemporal
+ctx-lh-posteriorcingulate
+ctx-lh-precuneus
+ctx-rh-isthmuscingulate
+ctx-rh-posteriorcingulate
+ctx-rh-inferiorparietal
+ctx-rh-middletemporal
+ctx-rh-precuneus
+ctx-rh-inferiortemporal
+ctx-lh-entorhinal
+ctx-lh-supramarginal
