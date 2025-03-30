@@ -74,13 +74,7 @@ def train_random_forest(X_train, y_train, X_test, y_test):
 
     return best_rf
 
-def predictMCIconverters(Xtest, data_dir):
-    X_train, y_train, _, _ = load_data(data_dir)
 
-    best_model = RandomForestClassifier(n_estimators=200, criterion='entropy', random_state=42)
-    best_model.fit(X_train, y_train)
-
-    return best_model.predict(Xtest)
 
 if __name__ == "__main__":
     data_dir = "Data"
@@ -92,6 +86,6 @@ if __name__ == "__main__":
     print("\nTraining Random Forest...")
     train_random_forest(X_train, y_train, X_test, y_test)
 
-    print("\nGenerating predictions with the best model...")
-    predictions = predictMCIconverters(X_test, data_dir)
-    print("Predictions:", predictions)
+    # print("\nGenerating predictions with the best model...")
+    # predictions = predictMCIconverters(X_test, data_dir)
+    # print("Predictions:", predictions)
